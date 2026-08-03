@@ -1,0 +1,58 @@
+# 🎬 Meu Catálogo - Front-end
+
+Este é o front-end do projeto **Meu Catálogo**, uma aplicação web full stack para gerenciar uma lista pessoal de filmes. Desenvolvido com React, Vite e integrado a uma API REST hospedada no Render.
+
+![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen)
+![React](https://img.shields.io/badge/React-18.2-blue)
+![Vite](https://img.shields.io/badge/Vite-4.0-purple)
+
+---
+
+## 🚀 Demonstração
+
+**Acesse o site funcionando:** [https://meu-cat-logo.vercel.app](https://meu-cat-logo.vercel.app)
+
+---
+
+## 📋 Funcionalidades
+
+- ✅ Cadastro de novos usuários
+- ✅ Login com autenticação JWT
+- ✅ Listagem de filmes pessoais
+- ✅ Adição de novos filmes
+- ✅ Integração com API externa
+- ✅ Proteção de rotas (somente usuários logados podem ver os filmes)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React 18** - Biblioteca para construção de interfaces
+- **Vite** - Build tool para desenvolvimento rápido
+- **React Router DOM** - Gerenciamento de rotas
+- **Axios** - Consumo da API
+- **JavaScript (ES6+)** - Linguagem principal
+
+---
+
+## 🔗 Integração com Back-end
+
+Este projeto consome uma API REST desenvolvida em Node.js/Express, hospedada no Render.
+
+- **Base URL da API:** `https://meu-catalogo-api.onrender.com`
+- **Repositório do Back-end:** [meu-catalogo-backend](https://github.com/samueldesignerpromax-prog/meu-catalogo-backend)
+
+---
+
+## 💻 Como rodar localmente
+
+### Pré-requisitos
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+
+### Passos
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/samueldesignerpromax-prog/meu-catalogo-frontend.git
+   cd meu-catalogo-frontend
